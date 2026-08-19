@@ -1,0 +1,23 @@
+# robots.txt for outtherekindergartens/logo
+# This repository exists only to host the Out There Kindergartens logo
+# used in our sitewide email signature.
+
+User-agent: *
+Allow: /OT logo 2023 clear bkgrd_200-200.png
+Disallow: /
+
+# AI training and content-scraping crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
